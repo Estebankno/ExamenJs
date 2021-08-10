@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor de edad</title>
+</head>
+<body>
+
+    <script>
+        var edad = prompt("");
+
+        //Validar si es un numero
+        if (Number(edad)){
+
+            //Si es mayor a 18 o igual es porque ya tiene 18
+            if (edad >= 18){
+
+                //Imprime en pantalla el mensaje
+                document.write("<h1>Puedes conducir</h1>");
+            }
+            //Sino
+            else{
+                document.write("<h1>No puedes conducir</h1>")
+            }
+        }
+        else{
+                alert("Introduce un número valido")
+            }
+    </script>
+    
+</body>
+
+</html>
